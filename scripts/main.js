@@ -46,18 +46,24 @@ class Company {
   }
 
   printDeveloperbyMap() {
+    console.clear();
+
     this.#employees.map((employee) => {
       employee.profession === this.#professions[1] && console.log(employee);
     });
   }
 
   printDeveloperbyForEach() {
+    console.clear();
+
     this.#employees.forEach((employee) => {
       employee.profession === this.#professions[1] && console.log(employee);
     });
   }
 
   addData() {
+    console.clear();
+
     const newEmployee = this.#createNewEmployee(
       "Susan",
       21,
@@ -68,6 +74,8 @@ class Company {
   }
 
   removeAdmin() {
+    console.clear();
+
     this.#employees = this.#employees.filter(
       (employee) => employee.profession !== this.#professions[0]
     );
@@ -75,6 +83,8 @@ class Company {
   }
 
   concatenateArray() {
+    console.clear();
+
     const newEmployeeA = this.#createNewEmployee(
       "Chris",
       22,
