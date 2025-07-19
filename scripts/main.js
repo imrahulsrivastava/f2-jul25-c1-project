@@ -100,18 +100,18 @@ class Company {
   }
 }
 
-const obj = new Company();
+const acciojob = new Company();
 
 document
   .getElementById("printDeveloperbyMap")
-  .addEventListener("click", obj.printDeveloperbyMap);
+  .addEventListener("click", acciojob.printDeveloperbyMap);
 document
   .getElementById("printDeveloperbyForEach")
-  .addEventListener("click", obj.printDeveloperbyForEach);
-document.getElementById("addData").addEventListener("click", obj.addData);
+  .addEventListener("click", acciojob.printDeveloperbyForEach);
+document.getElementById("addData").addEventListener("click", acciojob.addData);
 document
   .getElementById("removeAdmin")
-  .addEventListener("click", obj.removeAdmin);
+  .addEventListener("click", acciojob.removeAdmin);
 document
   .getElementById("concatenateArray")
-  .addEventListener("click", obj.concatenateArray);
+  .addEventListener("click", acciojob.concatenateArray);
